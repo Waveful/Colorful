@@ -11,3 +11,7 @@ export 'theme/theme.dart';
 export 'theme/theme_provider.dart';
 export 'theme/themes/light_theme.dart';
 export 'theme/themes/dark_theme.dart';
+
+export 'fundamentals/standard_card.dart';
+
+export 'utils/gradient_wrapper.dart';
