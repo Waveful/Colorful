@@ -1,5 +1,4 @@
 import 'package:colorful/design.dart';
-import 'package:flutter/material.dart';
 
 class GradientWrapper extends StatelessWidget {
 
@@ -20,6 +19,6 @@ class GradientWrapper extends StatelessWidget {
   }
 
   Shader _createGradientShader(BuildContext context, Rect bounds) {
-    return (gradient ?? ColorfulProvider.themeOf(context).colorfulGradient).createShader(Offset.zero & bounds.size);
+    return (gradient ?? Colorful.of(context).colorfulGradient).createShader(Offset.zero & bounds.size);
   }
 }

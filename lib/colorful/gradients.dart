@@ -96,8 +96,7 @@ class ColorfulGradients {
     stops: [0.0, 1.0],
   );
 
-  static Gradient getColorfulGradient(int? id)
-  {
+  static Gradient getColorfulGradient(int? id) {
     if(id != null && id >= 0 && id < colorfulGradients.length) {
       return colorfulGradients[id];
     }else {
@@ -112,5 +111,9 @@ class ColorfulGradients {
     }else {
       return getColorfulGradient(id);
     }
+  }
+
+  static Gradient getSingleColorGradient(Color color) {
+    return LinearGradient(colors: [color]);
   }
 }

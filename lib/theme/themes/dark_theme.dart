@@ -1,5 +1,4 @@
 import 'package:colorful/design.dart';
-import 'package:flutter/painting.dart';
 
 class DarkTheme extends ColorfulTheme {
 

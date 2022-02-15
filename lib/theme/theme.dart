@@ -1,5 +1,4 @@
 import 'package:colorful/design.dart';
-import 'package:flutter/painting.dart';
 
 abstract class ColorfulTheme {
 
@@ -28,4 +27,6 @@ abstract class ColorfulTheme {
 
   final Radius standardRadius = ColorfulRadii.standardRadius;
   final BorderRadius standardBorderRadius = ColorfulRadii.standardBorderRadius;
+
+  final Radius appBarRadius = ColorfulRadii.appBarRadius;
 }

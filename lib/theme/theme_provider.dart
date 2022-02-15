@@ -1,5 +1,4 @@
 import 'package:colorful/design.dart';
-import 'package:flutter/material.dart';
 
 class ColorfulProvider extends InheritedWidget {
 

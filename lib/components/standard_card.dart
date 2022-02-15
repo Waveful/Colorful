@@ -1,5 +1,4 @@
 import 'package:colorful/design.dart';
-import 'package:flutter/material.dart';
 
 enum StandardCardElevation { primary, onPrimary, onSecondary }
 
@@ -26,13 +25,13 @@ class StandardCard extends StatelessWidget {
     return SizedBox.expand(
       child: DecoratedBox(
         decoration: BoxDecoration(
-          borderRadius: shape == null ? radius ?? ColorfulProvider.themeOf(context).standardBorderRadius : null,
-          boxShadow: shadow ?? ColorfulProvider.themeOf(context).standardShadow,
+          borderRadius: shape == null ? radius ?? Colorful.of(context).standardBorderRadius : null,
+          boxShadow: shadow ?? Colorful.of(context).standardShadow,
           shape: shape != null ? shape! : BoxShape.rectangle,
         ),
         child: Card(
           elevation: 0,
-          shape: _shapeBorderFromBoxShape ?? RoundedRectangleBorder(borderRadius: radius ?? ColorfulProvider.themeOf(context).standardBorderRadius,),
+          shape: _shapeBorderFromBoxShape ?? RoundedRectangleBorder(borderRadius: radius ?? Colorful.of(context).standardBorderRadius,),
           color: color,
           child: child,
         ),
