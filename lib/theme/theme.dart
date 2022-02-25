@@ -29,4 +29,5 @@ abstract class ColorfulTheme {
   final BorderRadius standardBorderRadius = ColorfulRadii.standardBorderRadius;
 
   final Radius appBarRadius = ColorfulRadii.appBarRadius;
+  final Radius buttonRadius = ColorfulRadii.buttonRadius;
 }

@@ -11,9 +11,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  auto_size_text: 3.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_lints: 1.0.4
 
 # For information on the generic Dart part of this file, see the
